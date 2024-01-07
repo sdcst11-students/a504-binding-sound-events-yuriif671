@@ -33,7 +33,7 @@ def main():
             print("Wrong!\n")
             playsound.playsound("sounds/incorrect.mp3", block = False)
 
-    #i do this because the 'incorrect' sound may still be playing
+    #i do this because the 'incorrect' sound may still be playing + it is cooler 😎
     print("Loading the score...")
     time.sleep(4)
     print(f"The score is: {score}/{len(questions)}")
